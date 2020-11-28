@@ -20,7 +20,6 @@ if(link) {
         page.waitForNavigation({ waitUntil: 'networkidle0' }),
         page.evaluate(() => history.pushState(null, null, null)),
     ]);
-    //await page.waitForSelector('.tournament-name');
     const result = await page.evaluateHandle(() => {
       const hrefLink = []
       document.querySelectorAll('a').forEach(selector => {
