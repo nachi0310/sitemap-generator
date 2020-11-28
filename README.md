@@ -2,6 +2,9 @@
 
 A simple sitemap generator using pupeteer and sitemap packages.
 
+pupeteer : - https://github.com/puppeteer/puppeteer
+sitemap :- https://github.com/ekalinin/sitemap.js
+
 Steps to generate sitemap for any web page :-
 
 1. Pull the repository
