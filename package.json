@@ -1,0 +1,23 @@
+{
+  "name": "scrapper",
+  "version": "1.0.0",
+  "description": "a web scraper for sitemap generation",
+  "main": "scrapper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web",
+    "scraper",
+    "sitemap",
+    "sitemap",
+    "generator"
+  ],
+  "author": "nachiket",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^5.5.0",
+    "sitemap": "^6.3.3",
+    "xml-formatter": "^2.4.0"
+  }
+}
